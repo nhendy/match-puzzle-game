@@ -1,4 +1,4 @@
-# My own candy crush
+## My own candy crush
 
 To compile run 
 
