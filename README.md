@@ -1,1 +1,14 @@
-# match-puzzle-game
+# My own candy crush
+
+To compile run 
+
+```
+make 
+```
+
+To run the game run:
+```
+make run
+```
+
+Enjoy!!!
