@@ -1,5 +1,5 @@
 JAVAC=javac -classpath ./src
-JVM=java
+JVM=java -classpath ./src
 sources = $(wildcard src/code/*.java src/code/ui/*.java src/code/model/*.java) 
 classes = $(sources:.java=.class)
 
@@ -10,7 +10,10 @@ clean :
 
 
 run:
-	$(JVM) src/code/Driver
+	$(JVM) code/Driver
 
 %.class : %.java
 	$(JAVAC) $<
+
+
+	
